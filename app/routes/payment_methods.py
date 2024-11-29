@@ -20,7 +20,7 @@ async def get_all_payment_methods(db: AsyncSession = Depends(get_db)):
 
     return payment_methods
 
-# Endpoint 3: Obtener los métodos de pago con su conteo de uso
+# Endpoint 2: Obtener los métodos de pago con su conteo de uso
 @router.get("/payment-methods/usage", response_model=List[PaymentMethodUsage])
 async def get_payment_method_usage(db: AsyncSession = Depends(get_db)):
     result = await db.execute(

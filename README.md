@@ -43,7 +43,6 @@ La API de Ventas es un servicio backend construido con FastAPI para gestionar y 
 - `GET /api/v1/items`: Recuperar todos los productos.
 - `GET /api/v1/items/{item_id}`: Recuperar detalles de un producto.
 - `GET /api/v1/items/{item_id}/sales`: Recuperar datos de ventas de un producto específico.
-- `GET /api/v1/items/sales/top`: Recuperar el producto más vendido.
 - `GET /api/v1/items/sales/order`: Recuperar datos de ventas de todos los productos.
 
 ### Ubicaciones
